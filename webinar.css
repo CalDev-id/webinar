@@ -283,6 +283,60 @@ footer {
 .metode ul {
     margin-bottom: 20px;
 }
+.gambarbannercari {
+    width: 60%;
+    transform: translateX(-30px);
+}
+.gambarcari {
+    width: fit-content;
+}
+.containercari {
+    background: #fada5c;
+    margin-bottom: 40px;
+}
+.kata2cari{
+    margin-top: 100px;
+    width: 30%;
+    text-align:right;
+    margin-right: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+}
+.bannercari {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.carimobile {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 20px 10px 55px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    color: #7b7b7b;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: auto;
+    width: 250px;
+    border: none;
+}
+img.search-icon {
+    position: relative;
+    top: 7px;
+    right: 315px;
+    width: 28px;
+}
+.kata2cari2 {
+    display: none;
+}
+.caridekstop {
+    display: none;
+}
+.search-icon2 {
+    display: none;
+}
 @media only screen and (min-width: 768px) {
     .gambarbanner {
         width: 500px;
@@ -476,5 +530,74 @@ footer {
     }
     .social {
         margin-right: 50px;
+    }
+    .gambarbannercari {
+        width: 12%;
+        transform: translateX(-30px);
+    }
+    .gambarcari {
+        width: fit-content;
+    }
+    .containercari {
+        background: #fada5c;
+        margin-bottom: 40px;
+        max-height: 320px;
+    }
+    .kata2cari{
+        display: none;
+    }
+    .bannercari {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .carimobile{
+        display: none;
+    }
+    .search-icon2 {
+        position: relative;
+        bottom: 65px;
+        left: 45px;
+        width: 28px;
+        display: block;
+    }
+    .kata2cari2{
+        margin-top: 100px;
+        width: 100%;
+        margin-right: 50px;
+        font-weight: bold;
+        color: white;
+        font-size: 36px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .input2 {
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px 20px 10px 55px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        color: #7b7b7b;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        height: auto;
+        width: 250px;
+        border: none;
+    }
+    .caridekstop {
+        display: block;
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px 20px 10px 55px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        color: #d7d4d8;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        height: auto;
+        width: 250px;
+        border: none;
     }
 }
