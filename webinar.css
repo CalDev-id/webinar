@@ -361,7 +361,12 @@ img.search-icon {
         max-height: 500px;
     }
     .card {
-        margin-left: 20px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .card2{
+        margin-right: 50px;
+        margin-left: 50px;
     }
     .daftar {
         padding-left: 100px;
@@ -369,8 +374,15 @@ img.search-icon {
         padding-right: 100px;
         font-size: 20px;
     }
+    .card-container{
+        justify-content: space-around;
+    }
     .webinar h1 {
         font-size: 30px;
+    }
+    .webinar {
+        width: 80%;
+        margin-inline: auto;
     }
     .dummy {
         color: #f3d457;
@@ -599,5 +611,21 @@ img.search-icon {
         height: auto;
         width: 250px;
         border: none;
+    }
+}
+@media (max-width: 1500px) {
+    .card-container{
+        width: 100%;
+    }
+    .webinar {
+        width: 100%;
+    }
+    .card {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .card2{
+        margin-right: 40px;
+        margin-left: 40px;
     }
 }
