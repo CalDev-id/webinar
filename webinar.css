@@ -628,4 +628,7 @@ img.search-icon {
         margin-right: 40px;
         margin-left: 40px;
     }
+    .banner {
+        width: 90%;
+    }
 }
